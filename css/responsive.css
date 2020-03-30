@@ -1,0 +1,19 @@
+/**MEDIA QUERIES**/
+
+@media (min-width: 750px){
+    .titles{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .nav_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+/*
+    .nav_content li{
+        flex-direction: row;
+*/
+    }
