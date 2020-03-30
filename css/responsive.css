@@ -59,10 +59,20 @@
     nav{
         background: none;
         float: right;
-        font-size: 1.125em
+        font-size: 1.125em;
         text-align: right;
         width: 45%;
         margin: 40px 0 0;
+    }
+    
+    nav a,
+    nav a:visited {
+        color: lavender;
+    }
+
+    nav a:hover,
+    nav a.selected {
+        color: lightpink;
     }
     
     header {
